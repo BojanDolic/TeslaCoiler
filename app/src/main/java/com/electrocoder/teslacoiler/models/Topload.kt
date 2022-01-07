@@ -1,8 +1,10 @@
 package com.electrocoder.teslacoiler.models
 
 import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 @Entity(tableName = "toploads")
 data class Topload(
-    val capacitance: Float = 0f
+    @PrimaryKey val toploadId: Long = 0,
+    val toploadCapacitance: Float = 0f
 )
