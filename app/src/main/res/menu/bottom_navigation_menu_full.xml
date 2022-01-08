@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/coils_bottomnav_fragment"
+        android:title="Coils"
+        android:icon="@drawable/coil_icon_64" />
+
+    <item android:id="@+id/settings_bottomnav_fragment"
+        android:title="Settings" />
+
+</menu>
